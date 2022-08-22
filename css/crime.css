@@ -1,0 +1,152 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: white;
+    /* overflow: hidden; */
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+
+/* For changing the background color of the nav bar as use bootstrap hence need to use root. */
+
+:root {
+    --bs-dark-rgb: 00, 00, 00;
+}
+
+.navbar-nav {
+    --bs-nav-link-color: rgb(255 247 247);
+}
+
+
+/* Background image of the webpage */
+
+#backgroundImage {
+    /* width: 100%; */
+    padding-top: 45%;
+    background: rgba(0, 0, 0, 0.6);
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 22rem;
+}
+
+
+/* Text on the image  */
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    position: absolute;
+    top: 45%;
+    margin-left: 32%;
+    font-size: x-large;
+}
+
+#dropDownList {
+    display: flex;
+    justify-content: end;
+    text-decoration: none;
+    list-style-type: none;
+    margin-right: 30px;
+    align-items: center;
+}
+
+
+/* For navBar of the webpage  */
+
+#navBar {
+    top: 0px;
+    position: sticky;
+    background-color: black;
+    color: white;
+}
+
+
+/* navBar button design  */
+
+#navigationLoginBtn {
+    border: 2px solid white;
+    color: white;
+    background-color: black;
+}
+
+#navigationLoginBtn:hover {
+    background-color: white;
+    color: black;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+
+/* Login for the user, police and admin */
+
+.container {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    height: 500px;
+    margin-top: 20px;
+    /* margin: 2%; */
+}
+
+.loginBox {
+    width: 500px;
+    height: 461px;
+    border: 3px solid white;
+    margin-left: 12px;
+    padding: 2%;
+}
+
+#adminImage {
+    height: 348px;
+    width: 350px;
+}
+
+#policeImage {
+    height: 348px;
+    width: 400px;
+}
+
+#userImage {
+    height: 348px;
+    width: 350px;
+}
+
+.loginBtn {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    margin-left: 140px;
+    width: 100px;
+    border-radius: 21px;
+    height: 45px;
+    font-size: larger;
+    font-weight: bold;
+    margin-top: 12px;
+}
+
+
+/* Footer design  */
+
+#foot {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20rem;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    text-align: center;
+}

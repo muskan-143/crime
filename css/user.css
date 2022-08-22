@@ -1,0 +1,11 @@
+/* for footer of the page  */
+
+footer {
+    text-align: center;
+    height: 400px;
+    background-color: black;
+    color: white;
+    font-size: 24px;
+    font-weight: bolder;
+    padding-top: 53px;
+}
