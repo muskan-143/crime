@@ -17,6 +17,7 @@ function changeImage() {
         imageIndex++;
         // imgBackground.innerText = images[imageIndex];
     }
+    console.log(imageIndex);
 }
 setInterval(() => {
     console.log("call");
