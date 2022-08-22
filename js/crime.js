@@ -1,7 +1,7 @@
 // Setting the background image
 let imgBackground = document.getElementById("backgroundImage");
 let images = new Array(
-    "../images/backgroundImage1.jpg",
+    "images/backgroundImage1.jpg",
     "../images/backgroundImage2.jpg",
     "../images/backgroundImage3.jpg"
 );
